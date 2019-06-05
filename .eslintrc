@@ -1,0 +1,67 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "HttpError": true,
+    "PG": true,
+    "sequelize": true,
+    "_": true,
+    "__ENV__": true,
+    "api": true,
+    "authApi": true,
+    "window": true,
+    "document": true,
+    "expect": true,
+    "it": true,
+    "describe": true
+  },
+  "rules": {
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "strict": 0,
+    "one-var": 0,
+    "no-underscore-dangle": 0,
+    "arrow-body-style": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "class-methods-use-this": 0,
+    "consistent-return": 0,
+    "no-use-before-define": ["error", { "functions": false }],
+    "new-cap": 0,
+    "no-restricted-syntax": ["error", "WithStatement"],
+    "key-spacing": ["error", { "mode": "minimum" }],
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-dynamic-require": 0,
+    "max-len": 0,
+    "no-param-reassign": 0,
+    "no-console": 0,
+    "space-before-function-paren": 0,
+    "func-names": 0,
+    "newline-per-chained-call": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-array-index-key": 0,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "function-paren-newline": 0,
+    "object-curly-newline": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "linebreak-style": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "operator-linebreak": ["error", "after"],
+    "no-extra-parens": "error"
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true
+  }
+}
