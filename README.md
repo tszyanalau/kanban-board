@@ -5,7 +5,7 @@ A kanban board web application.
 ## Quick Start
 
 This project requires [Node.js](https://nodejs.org/) v8.12.0 to run.
-To get the app running locally
+To get the app running locally:
 
 - clone this repo.
 - `npm install` to install all the required dependencies.
@@ -13,7 +13,7 @@ To get the app running locally
 
 ## Scripts
 
-Inside this project, you can run some built-in commands:
+Inside this project, you can run the following built-in commands:
 
 ##### `npm start`
 
