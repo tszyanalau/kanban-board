@@ -2,6 +2,12 @@
 
 A kanban board web application.
 
+## Features
+
+- By default, there are two tasks in Backlog.
+- Each task can be dragged and dropped to different status on the board.
+- More tasks can be added to the board. They will appear in Backlog on create.
+
 ## Quick Start
 
 This project requires [Node.js](https://nodejs.org/) v8.12.0 to run.
